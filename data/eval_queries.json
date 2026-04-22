@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q01",
+    "query": "What is business analytics and how is it used in decision making?",
+    "relevant_sources": ["wiki_Business_analytics.txt"]
+  },
+  {
+    "id": "q02",
+    "query": "How is data science related to statistics?",
+    "relevant_sources": ["wiki_Data_science.txt"]
+  },
+  {
+    "id": "q03",
+    "query": "What is the difference between supervised and unsupervised learning?",
+    "relevant_sources": ["wiki_Machine_learning.txt"]
+  },
+  {
+    "id": "q04",
+    "query": "What techniques are commonly used in predictive analytics?",
+    "relevant_sources": ["wiki_Predictive_analytics.txt"]
+  },
+  {
+    "id": "q05",
+    "query": "What are the main characteristics of big data?",
+    "relevant_sources": ["wiki_Big_data.txt"]
+  },
+  {
+    "id": "q06",
+    "query": "How does business intelligence differ from business analytics?",
+    "relevant_sources": ["wiki_Business_intelligence.txt", "wiki_Business_analytics.txt"]
+  },
+  {
+    "id": "q07",
+    "query": "What is operations research and what problems does it solve?",
+    "relevant_sources": ["wiki_Operations_research.txt"]
+  },
+  {
+    "id": "q08",
+    "query": "How does business analytics use modeling and optimization?",
+    "relevant_sources": ["wiki_Business_analytics.txt"]
+  },
+  {
+    "id": "q09",
+    "query": "What does the data science article say about machine learning and prediction?",
+    "relevant_sources": ["wiki_Data_science.txt", "wiki_Machine_learning.txt"]
+  },
+  {
+    "id": "q10",
+    "query": "What is the historical context of business intelligence tools?",
+    "relevant_sources": ["wiki_Business_intelligence.txt"]
+  }
+]

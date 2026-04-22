@@ -1,0 +1,235 @@
+Wikipedia (English)
+Article title: Predictive analytics
+Page URL: https://en.wikipedia.org/wiki/Predictive_analytics
+License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+Retrieved (UTC): 2026-04-20
+Text is from Wikipedia parse API (HTML stripped in-script; tables/figures may be lossy).
+
+--- Article text ---
+
+Statistical techniques analyzing facts to make predictions about unknown events
+ Predictive analytics encompasses a variety of statistical techniques from data mining , predictive modeling , and machine learning that analyze current and historical facts to make predictions about future or otherwise unknown events. [ 1 ]
+
+ In business, predictive models exploit patterns found in historical and transactional data to identify risks and opportunities. Models capture relationships among many factors to allow assessment of risk or potential associated with a particular set of conditions, guiding decision-making for candidate transactions. [ 2 ]
+
+ The defining functional effect of these technical approaches is that predictive analytics provides a predictive score (probability) for each individual (customer, employee, healthcare patient, product SKU, vehicle, component, machine, or other organizational unit) in order to determine, inform, or influence organizational processes that pertain across large numbers of individuals, such as in marketing, credit risk assessment, fraud detection, manufacturing, healthcare, and government operations including law enforcement.
+
+ Since 2022, the field has evolved significantly with the integration of generative AI and large language models (LLMs), moving from purely numerical forecasting to "Predictive GenAI," which combines forecasting with automated content generation and agentic workflows. [ 3 ]
+
+ Definition [ edit ]
+
+ Predictive analytics is a set of business intelligence (BI) technologies that uncovers relationships and patterns within large volumes of data that can be used to predict behavior and events. Unlike other BI technologies, predictive analytics is forward-looking, using past events to anticipate the future. [ 4 ]
+
+ Predictive analytics statistical techniques include data modeling , machine learning , artificial intelligence , deep learning algorithms and data mining . Often the unknown event of interest is in the future, but predictive analytics can be applied to any type of unknown whether it be in the past, present or future. For example, identifying suspects after a crime has been committed, or credit card fraud as it occurs. [ 5 ]
+
+ The core of predictive analytics relies on capturing relationships between explanatory variables and the predicted variables from past occurrences, and exploiting them to predict the unknown outcome. The accuracy and usability of results depend greatly on the level of data analysis and the quality of assumptions. [ 1 ] Combining several predictors then produces a predictive model that can be used to calculate likely events. [ 6 ]
+
+ Evolution and Generative AI Integration (2022–Present) [ edit ]
+
+ Traditionally, predictive analytics focused on discriminative models —algorithms that classify data or predict a value (e.g., "Will this customer churn?"). Since 2023, the emergence of Generative AI has expanded the field's capabilities.
+
+ Predictive GenAI: This hybrid approach uses predictive models to identify a future event and generative models to create an intervention. For instance, a predictive model may flag a high-risk customer, while a generative model drafts a personalized retention email. [ 7 ]
+ Synthetic Data Generation: Generative adversarial networks ( GANs ) and variational autoencoders are used to create synthetic datasets, allowing organizations to train predictive models on data that mimics real-world patterns without compromising user privacy. [ 8 ]
+ Natural Language Querying: Business users can now utilize natural language processing (NLP) to query data (e.g., "Show me sales forecasts for Q4 adjusted for inflation") without needing knowledge of SQL or Python, lowering the barrier to entry for analytics. [ 9 ]
+ Technology Stack [ edit ]
+
+ The modern technology stack for predictive analytics, often referred to as the "Modern Data Stack," has shifted from on-premise servers to cloud-native, real-time architectures.
+
+ Infrastructure [ edit ]
+
+ Data Lakehouses: Platforms such as Databricks and Snowflake combine the structure of data warehouses with the flexibility of data lakes. This allows predictive models to run directly on high-volume raw data. [ 10 ]
+ Vector Databases: To support AI-driven analytics, vector databases (like Pinecone or Weaviate) store data as high-dimensional vectors. This enables semantic search and allows predictive models to incorporate unstructured data such as text, audio, and video. [ 11 ]
+ Analytical techniques [ edit ]
+
+ The approaches and techniques used to conduct predictive analytics can broadly be grouped into regression techniques and machine learning techniques.
+
+ Machine learning [ edit ]
+
+ Main article: Machine learning
+
+ Machine learning can be defined as the ability of a machine to learn and then mimic human behavior that requires intelligence. This is accomplished through artificial intelligence, algorithms, and models. [ 12 ]
+
+ Autoregressive Integrated Moving Average (ARIMA) [ edit ]
+
+ ARIMA models are a common example of time series models. These models use autoregression, which means the model can be fitted with a regression software that will use machine learning to do most of the regression analysis and smoothing. ARIMA models are known to have no overall trend, but instead have a variation around the average that has a constant amplitude, resulting in statistically similar time patterns. Through this, variables are analyzed and data is filtered in order to better understand and predict future values. [ 13 ] [ 14 ]
+
+ One example of an ARIMA method is exponential smoothing models. Exponential smoothing takes into account the difference in importance between older and newer data sets, as the more recent data is more accurate and valuable in predicting future values. In order to accomplish this, exponents are utilized to give newer data sets a larger weight in the calculations than the older sets. [ 15 ]
+
+ Time series models [ edit ]
+
+ Time series models are a subset of machine learning that utilize time series in order to understand and forecast data using past values. A time series is the sequence of a variable's value over equally spaced periods, such as years or quarters in business applications. [ 16 ] To accomplish this, the data must be smoothed, or the random variance of the data must be removed in order to reveal trends in the data. There are multiple ways to accomplish this.
+
+ Single moving average [ edit ]
+
+ Single moving average methods utilize smaller and smaller numbered sets of past data to decrease error that is associated with taking a single average, making it a more accurate average than it would be to take the average of the entire data set. [ 17 ]
+
+ Centered moving average [ edit ]
+
+ Centered moving average methods utilize the data found in the single moving average methods by taking an average of the median-numbered data set. However, as the median-numbered data set is difficult to calculate with even-numbered data sets, this method works better with odd-numbered data sets than even. [ 18 ]
+
+ Predictive modeling [ edit ]
+
+ Main article: Predictive modelling
+
+ Predictive modeling is a statistical technique used to predict future behavior. It utilizes predictive models to analyze a relationship between a specific unit in a given sample and one or more features of the unit. The objective of these models is to assess the possibility that a unit in another sample will display the same pattern. Predictive model solutions can be considered a type of data mining technology. The models can analyze both historical and current data and generate a model in order to predict potential future outcomes. [ 19 ]
+
+ Regardless of the methodology used, in general, the process of creating predictive models involves the same steps. First, it is necessary to determine the project objectives and desired outcomes and translate these into predictive analytic objectives and tasks. Then, analyze the source data to determine the most appropriate data and model building approach (models are only as useful as the applicable data used to build them). Select and transform the data in order to create models. Create and test models in order to evaluate if they are valid and will be able to meet project goals and metrics. Apply the model's results to appropriate business processes (identifying patterns in the data doesn't necessarily mean a business will understand how to take advantage or capitalize on it). Afterward, manage and maintain models in order to standardize and improve performance (demand will increase for model management in order to meet new compliance regulations). [ 20 ]
+
+ Regression analysis [ edit ]
+
+ Main article: Regression analysis
+
+ Generally, regression analysis uses structural data along with the past values of independent variables and the relationship between them and the dependent variable to form predictions. [ 13 ]
+
+ Linear regression [ edit ]
+
+ Main article: Linear regression
+
+ In linear regression , a plot is constructed with the previous values of the dependent variable plotted on the Y-axis and the independent variable that is being analyzed plotted on the X-axis. A regression line is then constructed by a statistical program representing the relationship between the independent and dependent variables which can be used to predict values of the dependent variable based only on the independent variable. With the regression line, the program also shows a slope intercept equation for the line which includes an addition for the error term of the regression, where the higher the value of the error term the less precise the regression model is. In order to decrease the value of the error term, other independent variables are introduced to the model, and similar analyses are performed on these independent variables. [ 13 ] [ 21 ]
+
+ Applications [ edit ]
+
+ Analytical Review and Conditional Expectations in Auditing [ edit ]
+
+ Main article: ARIMA
+
+ An important aspect of auditing includes analytical review. In analytical review, the reasonableness of reported account balances being investigated is determined. Auditors accomplish this process through predictive modeling to form predictions called conditional expectations of the balances being audited using autoregressive integrated moving average (ARIMA) methods and general regression analysis methods, [ 13 ] specifically through the Statistical Technique for Analytical Review (STAR) methods. [ 22 ]
+
+ The ARIMA method for analytical review uses time-series analysis on past audited balances in order to create the conditional expectations. These conditional expectations are then compared to the actual balances reported on the audited account in order to determine how close the reported balances are to the expectations. If the reported balances are close to the expectations, the accounts are not audited further. If the reported balances are very different from the expectations, there is a higher possibility of a material accounting error and a further audit is conducted. [ 22 ]
+
+ Regression analysis methods are deployed in a similar way, except the regression model used assumes the availability of only one independent variable. The materiality of the independent variable contributing to the audited account balances are determined using past account balances along with present structural data. [ 13 ] Materiality is the importance of an independent variable in its relationship to the dependent variable. [ 23 ] In this case, the dependent variable is the account balance. Through this the most important independent variable is used in order to create the conditional expectation and, similar to the ARIMA method, the conditional expectation is then compared to the account balance reported and a decision is made based on the closeness of the two balances. [ 13 ]
+
+ The STAR methods operate using regression analysis, and fall into two methods. The first is the STAR monthly balance approach, and the conditional expectations made and regression analysis used are both tied to one month being audited. The other method is the STAR annual balance approach, which happens on a larger scale by basing the conditional expectations and regression analysis on one year being audited. Besides the difference in the time being audited, both methods operate the same, by comparing expected and reported balances to determine which accounts to further investigate. [ 22 ]
+
+ Business Value [ edit ]
+
+ As we move into a world of technological advances where more and more data is created and stored digitally, businesses are looking for ways to take advantage of this opportunity and use this information to help generate profits. Predictive analytics can be used and is capable of providing many benefits to a wide range of businesses, including asset management firms, insurance companies, communication companies, and many other firms. In a study conducted by IDC Analyze the Future, Dan Vasset and Henry D. Morris explain how an asset management firm used predictive analytics to develop a better marketing campaign. They went from a mass marketing approach to a customer-centric approach, where instead of sending the same offer to each customer, they would personalize each offer based on their customer. Predictive analytics was used to predict the likelihood that a possible customer would accept a personalized offer. Due to the marketing campaign and predictive analytics, the firm's acceptance rate skyrocketed, with three times the number of people accepting their personalized offers. [ 24 ]
+
+ Technological advances in predictive analytics have increased its value to firms. One technological advancement is more powerful computers, and with this predictive analytics has become able to create forecasts on large data sets much faster. With the increased computing power also comes more data and applications, meaning a wider array of inputs to use with predictive analytics. Another technological advance includes a more user-friendly interface, allowing a smaller barrier of entry and less extensive training required for employees to utilize the software and applications effectively. Due to these advancements, many more corporations are adopting predictive analytics and seeing the benefits in employee efficiency and effectiveness, as well as profits. [ 25 ]
+
+ Cash-flow Prediction [ edit ]
+
+ ARIMA univariate and multivariate models can be used in forecasting a company's future cash flows , with its equations and calculations based on the past values of certain factors contributing to cash flows. Using time-series analysis, the values of these factors can be analyzed and extrapolated to predict the future cash flows for a company. For the univariate models, past values of cash flows are the only factor used in the prediction. Meanwhile the multivariate models use multiple factors related to accrual data, such as operating income before depreciation. [ 26 ]
+
+ Another model used in predicting cash-flows was developed in 1998 and is known as the Dechow, Kothari, and Watts model, or DKW (1998). DKW (1998) uses regression analysis in order to determine the relationship between multiple variables and cash flows. Through this method, the model found that cash-flow changes and accruals are negatively related, specifically through current earnings, and using this relationship predicts the cash flows for the next period. The DKW (1998) model derives this relationship through the relationships of accruals and cash flows to accounts payable and receivable, along with inventory. [ 27 ]
+
+ Child protection [ edit ]
+
+ Some child welfare agencies have started using predictive analytics to flag high risk cases. [ 28 ] For example, in Hillsborough County, Florida , the child welfare agency's use of a predictive modeling tool has prevented abuse-related child deaths in the target population. [ 29 ]
+
+ Predicting outcomes of legal decisions [ edit ]
+
+ The predicting of the outcome of juridical decisions can be done by AI programs. These programs can be used as assistive tools for professions in this industry. [ 30 ] [ 31 ]
+
+ Portfolio, product or economy-level prediction [ edit ]
+
+ Often the focus of analysis is not the consumer but the product, portfolio, firm, industry or even the economy. For example, a retailer might be interested in predicting store-level demand for inventory management purposes. Or the Federal Reserve Board might be interested in predicting the unemployment rate for the next year. These types of problems can be addressed by predictive analytics using time series techniques (see below). They can also be addressed via machine learning approaches which transform the original time series into a feature vector space, where the learning algorithm finds patterns that have predictive power. [ 32 ] [ 33 ]
+
+ Underwriting [ edit ]
+
+ Many businesses have to account for risk exposure due to their different services and determine the costs needed to cover the risk. Predictive analytics can help underwrite these quantities by predicting the chances of illness, default , bankruptcy , natural disasters etc. Predictive analytics can streamline the process of customer acquisition by predicting the future risk behavior of a customer using application level data. Predictive analytics in the form of credit scores have reduced the amount of time it takes for loan approvals, especially in the mortgage market. Proper predictive analytics can lead to proper pricing decisions, which can help mitigate future risk of default. For example, FEMA flood-risk data can be used not only to estimate the likelihood of flooding, but also to assess the chances of rising insurance premiums—or even shifts in the value of coastal real estate. [ 34 ] [ 35 ] Predictive analytics can be used to mitigate moral hazard and prevent accidents from occurring. [ 36 ]
+
+ See also [ edit ]
+
+ Actuarial science
+ Artificial intelligence in healthcare
+ Analytical procedures (finance auditing)
+ Big data
+ Computational sociology
+ Criminal Reduction Utilising Statistical History
+ Decision management
+ Disease surveillance
+ Learning analytics
+ Odds algorithm
+ Pattern recognition
+ Predictive inference
+ Predictive policing
+ Social media analytics
+ References [ edit ]
+
+ ^ a b Nyce, Charles (2007). "Predictive Analytics White Paper" . American Institute for Chartered Property Casualty Underwriters. p. 1.
+
+ ^ Siegel, Eric (2016). Predictive Analytics: The Power to Predict Who Will Click, Buy, Lie, or Die . Wiley. ISBN   978-1119145677 .
+
+ ^ "The state of AI in 2025: Agents, innovation, and transformation" . McKinsey & Company . 2025-11-05 . Retrieved 2025-11-24 .
+
+ ^ Eckerson, Wayne W. (2007). Predictive Analytics: Extending the Value of Your Data Warehousing Investment (Report). TDWI Best Practices Report.
+
+ ^ Kelleher, John D.; Mac Namee, Brian; D'Arcy, Aoife (2015). Fundamentals of Machine Learning for Predictive Data Analytics: Algorithms, Worked Examples, and Case Studies . MIT Press .
+
+ ^ "Predictor Variable - an overview" . www.sciencedirect.com . Retrieved 2026-02-13 .
+
+ ^ "Better Together: Generative AI and Predictive Analytics" . Pecan AI. 2024-05-22 . Retrieved 2025-11-24 .
+
+ ^ "2025 Trends: Generative AI vs Predictive AI and Their Emerging Roles" . Kanerika. 2024-10-16.
+
+ ^ Chen, Qin (2025). Large Language Models for Predictive Analysis: How Far Are They? . Findings of the Association for Computational Linguistics: ACL 2025.
+
+ ^ "Databricks Named a Leader in 2025 Gartner® Magic Quadrant™ for Cloud Database Management Systems" . Databricks. 2025-11-21.
+
+ ^ "Trends that will shape the Modern Data Stack in 2024" . Towards Data Science. 2024-01-10.
+
+ ^ "Machine learning, explained" . MIT Sloan . 21 April 2021 . Retrieved 2022-05-06 .
+
+ ^ a b c d e f Kinney, William R. (1978). "ARIMA and Regression in Analytical Review: An Empirical Test". The Accounting Review . 53 (1): 48– 60. ISSN   0001-4826 . JSTOR   245725 .
+
+ ^ "Introduction to ARIMA models" . people.duke.edu . Retrieved 2022-05-06 .
+
+ ^ "6.4.3. What is Exponential Smoothing?" . www.itl.nist.gov . Retrieved 2022-05-06 .
+
+ ^ "6.4.1. Definitions, Applications and Techniques" . www.itl.nist.gov . Retrieved 2022-05-06 .
+
+ ^ "6.4.2.1. Single Moving Average" . www.itl.nist.gov . Retrieved 2022-05-06 .
+
+ ^ "6.4.2.2. Centered Moving Average" . www.itl.nist.gov . Retrieved 2022-05-06 .
+
+ ^ McCarthy, Richard; McCarthy, Mary; Ceccucci, Wendy (2021). Applying Predictive Analytics: Finding Value in Data . Springer.
+
+ ^ Eckerson, Wayne, W (2007). "Predictive Analytics. Extending the Value of Your Data Warehousing Investment" (PDF) . {{ cite web }} : CS1 maint: multiple names: authors list ( link )
+
+ ^ "Linear Regression" . www.stat.yale.edu . Retrieved 2022-05-06 .
+
+ ^ a b c Kinney, William R.; Salamon, Gerald L. (1982). "Regression Analysis in Auditing: A Comparison of Alternative Investigation Rules". Journal of Accounting Research . 20 (2): 350– 366. doi : 10.2307/2490745 . ISSN   0021-8456 . JSTOR   2490745 .
+
+ ^ PricewaterhouseCoopers. "Materiality in audits" . PwC . Retrieved 2022-05-03 .
+
+ ^ Vesset, Dan; Morris, Henry D. (June 2011). "The Business Value of Predictive Analytics" (PDF) . White Paper : 1– 3.
+
+ ^ Stone, Paul (April 2007). "Introducing Predictive Analytics: Opportunities" . All Days . doi : 10.2118/106865-MS .
+
+ ^ Lorek, Kenneth S.; Willinger, G. Lee (1996). "A Multivariate Time-Series Prediction Model for Cash-Flow Data". The Accounting Review . 71 (1): 81– 102. ISSN   0001-4826 . JSTOR   248356 .
+
+ ^ Barth, Mary E.; Cram, Donald P.; Nelson, Karen K. (2001). "Accruals and the Prediction of Future Cash Flows". The Accounting Review . 76 (1): 27– 58. doi : 10.2308/accr.2001.76.1.27 . ISSN   0001-4826 . JSTOR   3068843 .
+
+ ^ Reform, Fostering (2016-02-03). "New Strategies Long Overdue on Measuring Child Welfare Risk" . The Imprint . Retrieved 2022-05-03 .
+
+ ^ "Within Our Reach: A National Strategy to Eliminate Child Abuse and Neglect Fatalities" (PDF) . Commission to Eliminate Child Abuse and Neglect Fatalities . 2016. Archived from the original (PDF) on June 14, 2021.
+
+ ^ Aletras, Nikolaos; Tsarapatsanis, Dimitrios; Preoţiuc-Pietro, Daniel; Lampos, Vasileios (2016). "Predicting judicial decisions of the European Court of Human Rights: a Natural Language Processing perspective" . PeerJ Computer Science . 2 : e93. doi : 10.7717/peerj-cs.93 . S2CID   7630289 .
+
+ ^ UCL (2016-10-24). "AI predicts outcomes of human rights trials" . UCL News . Retrieved 2022-05-03 .
+
+ ^ Dhar, Vasant (May 6, 2011). "Prediction in financial markets: The case for small disjuncts" . ACM Transactions on Intelligent Systems and Technology . 2 (3): 1– 22. doi : 10.1145/1961189.1961191 . ISSN   2157-6904 . S2CID   11213278 .
+
+ ^ Dhar, Vasant; Chou, Dashin; Provost, Foster (2000-10-01). "Discovering Interesting Patterns for Investment Decision Making with GLOWER ◯-A Genetic Learner Overlaid with Entropy Reduction". Data Mining and Knowledge Discovery . 4 (4): 251– 280. doi : 10.1023/A:1009848126475 . ISSN   1384-5810 . S2CID   1982544 .
+
+ ^ "Real Estate Data Analytics" . leni.co . Retrieved 2026-02-13 .
+
+ ^ "AI vs. Traditional Risk Assessment Methods" . www.lucid.now . Retrieved 2026-02-13 .
+
+ ^ Montserrat, Guillen; Cevolini, Alberto (November 2021). "Using Risk Analytics to Prevent Accidents Before They Occur – The Future of Insurance" . Journal of Financial Transformation .
+
+ Further reading [ edit ]
+
+ Agresti, Alan (2002). Categorical Data Analysis . Hoboken: John Wiley & Sons . ISBN   0-471-36093-7 .
+ Coggeshall, Stephen; Davies, John; Jones, Roger ; Schutzer, Daniel (1995). "Intelligent Security Systems". In Freedman, Roy S.; Flein, Robert A.; Lederman, Jess (eds.). Artificial Intelligence in the Capital Markets . Chicago: Irwin. ISBN   1-55738-811-3 .
+ Coker, Frank (2014). Pulse: Understanding the Vital Signs of Your Business . Bellevue, WA: Ambient Light Publishing. ISBN   978-0-9893086-0-1 .
+ Devroye, L.; Györfi, L.; Lugosi, G. (1996). A Probabilistic Theory of Pattern Recognition . New York: Springer-Verlag. ISBN   9781461207115 – via Google Books .
+ Enders, Walter (2004). Applied Time Series Econometrics . Hoboken: John Wiley & Sons . ISBN   0-521-83919-X .
+ Finlay, Steven (2014). Predictive Analytics, Data Mining and Big Data. Myths, Misconceptions and Methods . Basingstoke: Palgrave Macmillan . ISBN   978-1-137-37927-6 .
+ Greene, William (2012). Econometric Analysis (7th ed.). London: Prentice Hall . ISBN   978-0-13-139538-1 .
+ Guidère, Mathieu; Howard, N; Argamon, Sh. (2009). Rich Language Analysis for Counterterrorism . Berlin, London, New York: Springer-Verlag. ISBN   978-3-642-01140-5 .
+ Mitchell, Tom (1997). Machine Learning . New York: McGraw-Hill . ISBN   0-07-042807-7 .
+ Tukey, John (1977). Exploratory Data Analysis . New York: Addison-Wesley. ISBN   0-201-07616-0 .
+
+ Authority control databases GND

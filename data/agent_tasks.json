@@ -1,0 +1,52 @@
+[
+  {
+    "id": "t01",
+    "title": "Retrieve then summarize predictive analytics",
+    "mission": "Step 1: Use the corpus to find what techniques predictive analytics combines. Step 2: Summarize your retrieved evidence into at most 4 bullet points in English. Step 3: Finish with filenames you relied on."
+  },
+  {
+    "id": "t02",
+    "title": "Two-step compare BI and business analytics",
+    "mission": "First retrieve passages about business intelligence. Then retrieve passages about business analytics. Finally explain in 4-6 sentences how the articles contrast BI with business analytics, citing only retrieved filenames."
+  },
+  {
+    "id": "t03",
+    "title": "Big data characteristics",
+    "mission": "Retrieve evidence about volume/velocity/variety (or related definitions) for big data. Summarize the top retrieved passage if it is long. Provide a short final answer suitable for an MSBA slide."
+  },
+  {
+    "id": "t04",
+    "title": "Machine learning paradigms",
+    "mission": "Find corpus passages about supervised vs unsupervised learning. Summarize differences in bullets, then give a one-paragraph conclusion with sources."
+  },
+  {
+    "id": "t05",
+    "title": "Operations research example",
+    "mission": "Retrieve information about a classic operations research problem (e.g., resource allocation or optimization). Summarize the story in 3 bullets and finish."
+  },
+  {
+    "id": "t06",
+    "title": "Data science and statistics",
+    "mission": "Locate what the data science article says about statistics. If the combined retrieved text is long, summarize it before writing the final answer."
+  },
+  {
+    "id": "t07",
+    "title": "Business analytics modeling",
+    "mission": "Retrieve how business analytics uses modeling and statistics. Produce a concise final answer with sources; use summarize_text only if needed."
+  },
+  {
+    "id": "t08",
+    "title": "Relevance of embeddings (implicit)",
+    "mission": "Using only the corpus, explain what dense embeddings are used for in retrieval-style workflows described or implied across articles. Retrieve as needed, then finish."
+  },
+  {
+    "id": "t09",
+    "title": "Iterative refine",
+    "mission": "First retrieve broadly about 'customer analytics'. If snippets are noisy, run a second narrower retrieve. Then finish with the best-supported statement."
+  },
+  {
+    "id": "t10",
+    "title": "Executive TL;DR",
+    "mission": "Retrieve key points about business intelligence tooling history. Summarize the retrieved material into an executive TL;DR of max 5 bullets, then finish with sources."
+  }
+]

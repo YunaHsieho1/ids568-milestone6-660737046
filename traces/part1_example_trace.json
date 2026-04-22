@@ -1,0 +1,33 @@
+{
+  "question": "Why is a flat FAISS index often a good choice for small corpora?",
+  "retrieval_ms": 57.758208000450395,
+  "generation_ms": 16550.739083002554,
+  "e2e_ms": 16608.497291003005,
+  "hits": [
+    {
+      "chunk_id": "wiki_Business_intelligence.txt::32",
+      "source": "wiki_Business_intelligence.txt",
+      "score": 0.3957952857017517,
+      "text": "formats.\n Terminology – Among researchers and analysts, there is a need to develop standardized terminology.\n Volume of data – As stated earlier, up to 85% of all data exists as semi-structured data. Couple that with the need for word-to-word and semantic analysis.\n Searchability of unstructured textual data – A simple search on some data, e.g. apple, results in links where there is a reference to that precise search term. (Inmon & Nesavich, 2008"
+    },
+    {
+      "chunk_id": "wiki_Business_intelligence.txt::30",
+      "source": "wiki_Business_intelligence.txt",
+      "score": 0.3803790509700775,
+      "text": "fic problems associated with semi-structured and unstructured data must be accommodated for as well as those for the structured data.\n\n Limitations of semi-structured and unstructured data [ edit ]\n\n This section needs to be updated . The reason given is: It's dubious that searchability and semantic analysis are still limitations at the current stage of NLP and AI development . Please help update this article to reflect recent events or newly ava"
+    },
+    {
+      "chunk_id": "wiki_Business_intelligence.txt::27",
+      "source": "wiki_Business_intelligence.txt",
+      "score": 0.37772268056869507,
+      "text": "l Lynch , more than 85% of all business information exists in these forms; a company might only use such a document a single time. [ 17 ] Because of the way it is produced and stored, this information is either unstructured or semi-structured .\n\n The management of semi-structured data is an unsolved problem in the information technology industry. [ 18 ] According to projections from Gartner (2003), white-collar workers spend 30–40% of their time"
+    },
+    {
+      "chunk_id": "wiki_Big_data.txt::138",
+      "source": "wiki_Big_data.txt",
+      "score": 0.3637610375881195,
+      "text": "ying financial relevance, published in Scientific Reports , [ 190 ] suggests that increases in search volume for financially relevant search terms tend to precede large losses in financial markets. [ 191 ] [ 192 ] [ 193 ] [ 194 ] [ 195 ] [ 196 ] [ 197 ]\n\n Big data sets come with algorithmic challenges that previously did not exist. Hence, there is seen by some to be a need to fundamentally change the processing ways. [ 198 ]\n\n Sampling big data ["
+    }
+  ],
+  "answer": "A flat FAISS index can be a good choice for small corpora due to several reasons:\n\n- Efficiency: Flat FAISS indexes are simple and efficient, making them suitable for smaller datasets. They do not require complex data structures or multiple passes over the data, which can be resource-intensive.\n\n- Speed: Flat FAISS indexes offer faster search times compared to other methods for small corpora. This is because they store all vectors in memory, allowing for quick retrieval of similar items.\n\n- Simplicity: The simplicity of a flat FAISS index makes it easier to implement and understand compared to more complex indexing methods. This can be beneficial when working with smaller datasets where resources may be limited.\n\nSources:\n- wiki_Business_intelligence.txt (no specific passage number provided, but the context suggests that the information is related to business intelligence)\n- wiki_Big_data.txt (no specific passage number provided, but the context suggests that the information is related to big data)"
+}
