@@ -1,0 +1,10 @@
+# IDS568 Milestone 6 core dependencies (pinned for reproducibility)
+numpy==2.4.4
+torch==2.11.0
+sentence-transformers==5.4.1
+transformers==5.5.4
+faiss-cpu==1.13.2
+requests==2.33.1
+tqdm==4.67.3
+jupyter==1.1.1
+ipykernel==7.2.0
